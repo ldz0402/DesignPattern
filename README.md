@@ -1,5 +1,5 @@
 ## Usage
-> mkdir build
-> cd build
-> cmake -DPattern=[Singleton|SimpleFactory|FactoryMethod|AbstractFactory|Prototype] ..
-> make 
+1. mkdir build
+2. cd build
+3. cmake -DPattern=[Singleton|SimpleFactory|FactoryMethod|AbstractFactory|Prototype] ..
+4. make 
