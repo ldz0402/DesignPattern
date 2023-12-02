@@ -24,6 +24,15 @@ string readMsgFromTxt(string file) {
   return msg;
 }
 
+void writeMsgToTxt(string filepath, string msg) {
+  fstream outfile;
+  outfile.open(filepath, ios::out);
+  assert(outfile.is_open() && "txt文件打开失败");
+  outfile << msg << "\n";
+  outfile.close();
+  return;
+}
+
 void QuickSort::quickSort(int* array, int len) {
   sort(array, 0, len - 1);
   return;

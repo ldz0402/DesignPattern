@@ -7,6 +7,8 @@ namespace CommonToolNS {
 
 std::string readMsgFromTxt(std::string filepath);
 
+void writeMsgToTxt(std::string filepath, std::string msg);
+
 class QuickSort {
  public:
   /**
